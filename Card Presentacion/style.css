@@ -9,9 +9,12 @@ height: 100vh;
 
 .botones {
 
-display: flex;
+display: block;
 flex-direction: column;
 margin-top: 2rem;
+margin-left: 2rem;
+
+
 
 }
 
@@ -23,14 +26,14 @@ margin-top: 2rem;
     --offset: 10px;
     --border-size: 2px;
     display: block;
-    position: absolute;
+    position: relative;
     padding: 1.5em 3em;
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
     border: 0;
     background: transparent;
-    color: #e55743;
+    color: #43e5a7;
     text-transform: uppercase;
     letter-spacing: .25em;
     outline: none;
