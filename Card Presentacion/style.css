@@ -1,18 +1,86 @@
-body {
 
-background-image:url(./image/fondo.jpg);
-height: 100vh;
+body {
+background: url(image/fondo.jpg) no-repeat center center fixed;
+
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
+
+.logo {
+  float: left;
+  margin-left: 5%;
+  line-height: 50px;
+  font-size: 2em;
+}
+
+nav {
+  font-family: sans-serif;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0 0 5px 5px #43e5a7
+}
+nav:hover {
+  box-shadow: 0 0 20px #43e5a7
+}
+nav:hover li a {
+  color: #43e5a7;
+  text-shadow: 0 0 10px rgba(234, 212, 200, 0.8);
+}
+
+ul {
+  text-align: center;
+  height: 50px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), black);
+}
+
+li {
+  display: inline-block;
+}
+li:not(:first-child) {
+  padding: 0 2%;
+}
+li:hover a {
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 5px 15px;
+color: #43e5a7;
+}
+
+li:not(:first-child) a:hover {
+  border: 2px solid #43e5a7;
+  background: rgba(179, 74, 144,);
+  box-shadow: 0 0 5px 1px #43e5a7;
+  transition-duration: 0.1s;
+  border-bottom: 10px solid #43e5a7;
+  color: #43e5a7;
+}
+
+
+
+
+
+
+
+
 
 
 
 .botones {
 
-display: block;
-flex-direction: column;
-margin-top: 2rem;
-margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+margin-top: 25rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  width: 22rem;
 
 
 
